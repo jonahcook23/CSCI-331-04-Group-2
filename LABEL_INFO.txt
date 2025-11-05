@@ -1,4 +1,4 @@
 NOTE: image labels are text files in YOLOv8 format
 the first number is the class id (the number of the class the image corresponds to, an integer starting from 0)
 the second and third numbers are the center_x and center_y coordinates (where the signs are located, between 0 and 1)
-the fourth and fifth numbers are the width_x and width_y values (how large the sign is relatiive to the image, between 0 and 1)
+the fourth and fifth numbers are the width_x and width_y values (how large the sign is relative to the image, between 0 and 1)
