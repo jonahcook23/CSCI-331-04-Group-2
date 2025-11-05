@@ -1,3 +1,6 @@
+# NOTE: this code was not designed to be portable. it was designed to be run once and never touched again
+# if you want to modify it to make your own masks, CHANGE THE FILE PATHS. might need to change some other stuff too idk
+
 from PIL import Image
 import numpy as np
 import os
