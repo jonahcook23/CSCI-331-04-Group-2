@@ -1,4 +1,4 @@
-# sign-detection repo for my ai intro class project
+# a traffic sign detection and classification system
 
 Title of the Project:  Traffic Sign Detection System
 
