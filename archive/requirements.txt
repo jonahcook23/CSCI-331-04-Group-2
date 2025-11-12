@@ -1,8 +1,9 @@
 #lists all dependencies/libraries required to run code 
 
-torch>=2.0
-torchvision>=0.15
+torch
+torchvision
 numpy
+pycocotools
 opencv-python
 Pillow
 scikit-learn
@@ -12,3 +13,4 @@ pyyaml
 albumentations
 pandas
 scipy
+
