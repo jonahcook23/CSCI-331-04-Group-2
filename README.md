@@ -1,4 +1,4 @@
-# a traffic sign detection and classification system
+# A traffic sign detection and classification system
 
 Title of the Project:  Traffic Sign Detection System
 
