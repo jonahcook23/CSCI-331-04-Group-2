@@ -28,20 +28,6 @@ Running project guides (steps, commands, etc.):
 
 
 Project Sturucture
-archive/
-|____car/
-    |___test/
-    |   |___images/
-    |   |___labels/
-    |   |___masks/
-    |___train/
-    |   |___images/
-    |   |___labels/
-    |   |___masks/
-    |___valid/
-    |   |___images/
-    |   |___labels/
-    |   |___masks/
 
 With images containing a '.jpg'file and corressponding masks with its binary mask files for data segmentation.
 
