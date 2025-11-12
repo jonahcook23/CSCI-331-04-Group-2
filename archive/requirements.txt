@@ -1,1 +1,16 @@
-lists all dependencies/libraries required to run code
+#lists all dependencies/libraries required to run code 
+
+torch
+torchvision
+numpy
+pycocotools
+opencv-python
+Pillow
+scikit-learn
+tqdm
+matplotlib
+pyyaml
+albumentations
+pandas
+scipy
+
