@@ -2,7 +2,15 @@
 
 Title of the Project:  Traffic Sign Detection System
 
-Abstract (a brief paragraph of your project): 
+Learning goals for this project:
+Understanding how machine learning models detect objects in real-world images (main focus on the traffic signs)
+Accurately classifying traffic signs under real-world conditions using robust and reliable perception modules.
+Learning the ML pipeline: 
+Preprocessing -> training -> evaluation
+Assigned tasks:
+Build a system that detects and classifies multiple types of traffic signs from images using at least two AI/ML algorithm
+Compare the algorithms that we used for this project
+Developing a high fidelity instance segmentation solution for traffic signs 
 
 
 For our project:
@@ -16,16 +24,10 @@ Python libraries:-
     f) PIL and numpy: Manipulate and Load images (data)
     g) sklearn.metrics: Calculates precision, recall, and F1 score evaluation metrics criteria
     h) json: Saves data to a new file 
+    
 We will be comparing U-Net and Mask R-CNN (COCO-style instance annotations). Mask R-CNN will be used for object level instance segmentation and bounding boxes 
 
-
 List of developers: Jonah Cook, Miguel De Vera, Bishop Oparaugo
-
-Major contributions: 
-
-Running project guides (steps, commands, etc.):
-
-
 
 Project Sturucture
 
@@ -40,11 +42,12 @@ Train U-Net:
 Train Mask R-CNN:
 For this segmentation, we utilized PyTorch's built-in 'maskrcnn_resnet50_fpn' to help in modelling for traffic sign detection.
 The model uses transfer learning with pretrained COCO (Common Objects in Context) weights.
+
 Running steps:
 After cloning the github repository to your local repository
 run these operations via terminal or bash:
 cd code
-python train_maskrcnn.py
+python maskrcnn.py
 
 This will load the data from 'archive/car/'
 Train Mask R-CNN for 5 epochs
