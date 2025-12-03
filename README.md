@@ -25,19 +25,20 @@ Python libraries:-
     g) sklearn.metrics: Calculates precision, recall, and F1 score evaluation metrics criteria
     h) json: Saves data to a new file 
     
-We will be comparing U-Net and Mask R-CNN (COCO-style instance annotations). Mask R-CNN will be used for object level instance segmentation and bounding boxes 
+We will be comparing HoloV8 and Mask R-CNN (COCO-style instance annotations). Mask R-CNN will be used for object level instance segmentation and bounding boxes 
 
 List of developers: Jonah Cook, Miguel De Vera, Bishop Oparaugo
 
 Project Sturucture
 
-With images containing a '.jpg'file and corressponding masks with its binary mask files for data segmentation.
+With images containing a '.png' file and corressponding masks with its binary mask files for data segmentation.
 
 Be sure to download all dependencies from our 'archive/requirements.txt' file
 "pip install -r requirements.txt"
 
 
-Train U-Net:
+Train HoloV8:
+usess the Ultralytics YOLOv8 framework, which handles the full training pipeline
 
 Train Mask R-CNN:
 For this segmentation, we utilized PyTorch's built-in 'maskrcnn_resnet50_fpn' to help in modelling for traffic sign detection.
